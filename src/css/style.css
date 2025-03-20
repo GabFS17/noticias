@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #fff url(../img/fundo.png) repeat-x;
+}
+
+#topo {
+    margin: 0px;
+    background-color: rgb(46, 70, 114);
+    padding-left: 25%;
+    padding-right: 25%;
+    height: 150px;
+    background: url(../img/detalhe-topo.png) no-repeat right top;
+    user-select: none;
+    padding-top: 25px;
+
+}
+
+main {
+    background-color: rgb(255, 228, 228);
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.cabecalho {
+    color: white;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.cabecalho li {
+    background-color:rgb(179, 19, 54);
+    padding: 14px 20px 14px 20px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+
+}
+
+.cabecalho li:hover {
+    background-color: rgb(224, 15, 61);
+}
+
+.logo {
+    width: 152px;
+    height: 66px;
+}
+
+.cabecalho .botao.selecionado {
+    background-color: rgb(224, 15, 61);
+}
