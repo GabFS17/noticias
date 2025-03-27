@@ -8,49 +8,73 @@
     <link rel="stylesheet" href="./src/css/style.css">
 </head>
 <body>
-    <section id="container">
+    <div id="container">
         <header id="topo">
             <div class="logo">
                 <img src="./src/img/logo.png" alt="logo">
             </div>
     
-            <div>
+            <nav>
                 <ul class="cabecalho">
-                    <li class="botao selecionado">
-                        <p>Home</p>
-                    </li>
+                    <a href="./index.html">
+                        <li class="botao selecionado">
+                            Home
+                        </li>
+                    </a>
     
-                    <li class="botao">
-                        <p>Brasil</p>
-                    </li>
-                    
-                    <li class="botao">
-                        <p>Internacional</p>
-                    </li>
-                    
-                    <li class="botao">
-                        <p>Economia</p>
-                    </li>
-                    
-                    <li class="botao">
-                        <p>Saúde</p>
-                    </li>
-                    
-                    <li class="botao">
-                        <p>Ciência</p>
-                    </li>
-                    
-                    <li class="botao">
-                        <p>Fotos</p>
-                    </li>
+                    <a href="./brasil.html">
+                        <li class="botao">
+                            Brasil
+                        </li>
+                    </a>
+                        
+                    <a href="./internacional.html">
+                        <li class="botao">
+                            Internacional
+                        </li>
+                    </a>
+                
+                    <a href="#">
+                        <li class="botao">
+                            Economia
+                        </li>
+                    </a>
+
+                    <a href="#">    
+                        <li class="botao">
+                            Saúde
+                        </li>
+                    </a>
+                        
+                    <a href="#">
+                        <li class="botao">
+                            Ciência
+                        </li>
+                    </a>
+                        
+                    <a href="./fotos.html">
+                        <li class="botao">
+                            Fotos
+                        </li>
+                    </a>
                     
                 </ul>
-            </div>
+            </nav>
         </header>
-        <main>
+
+        <div id="conteudo">
+            <div id="primaria">Primária</div>
+            <div id="secundaria">Secundária</div>
+            <div id="lateral">Lateral</div>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img id="s" src="./src/img/shrek.jpg" alt="jureq"></a>
             
-        </main>
-    </section>
+        </div>
+    </div>
     
+    <div id="container-rodape" style="clear: both;">
+        <p id="rodape">&copy; 2000 - 2025 Noticias da Cidade</p>
+    </div>
+    
+    <script src="./src/js/index.js"></script>
 </body>
 </html>
