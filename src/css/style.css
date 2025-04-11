@@ -9,6 +9,10 @@ body {
     
 }
 
+ul {
+    list-style: none;
+}
+
 #topo {
     margin: 0px;
     background-color: rgb(46, 70, 114);
@@ -16,6 +20,7 @@ body {
     background: url(../img/detalhe-topo.png) no-repeat right top;
     user-select: none;
     padding-top: 25px;
+    max-width: 780px;
 }
 
 main {
@@ -40,7 +45,7 @@ main {
     cursor: pointer;
     transition: 0.2s ease-in-out;
     float: left;
-
+    color: white
 }
 
 .cabecalho li:hover {
@@ -57,7 +62,6 @@ main {
 }
 
 a {
-    color: white;
     text-decoration: none;
 }
 
@@ -100,4 +104,39 @@ a {
     width: 750px;
     color: white;
     margin: 0 auto;
+}
+
+/*formata o menu lateral lateral*/
+
+.caixa {
+    background: #f3f3f3 url(../img/fundo-caixa.png);
+    margin: 10px 0;
+    padding: 5px 0;
+}
+
+.caixa-conteudo {
+    background: white;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+h2 {
+    font-size: 1.1em;
+    color: white;
+    background: #294c71;
+}
+
+#lateral ul a {
+    font-size: 0.9em;
+    padding: 3px;
+    line-height: 30px;
+    color: black;
+    display: block;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover {
+    background: #f9f9f9 url(../img/marcador.png) no-repeat;
+    color: #a1a1a1;
+    padding-left: 20px;
 }
